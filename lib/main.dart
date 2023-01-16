@@ -10,7 +10,7 @@ class idCard extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.blue,
       ),
       home: Scaffold(
         appBar: AppBar(
@@ -32,8 +32,82 @@ class idCard extends StatelessWidget {
                 padding: EdgeInsets.all(30),
                 child: Column(
                   children: <Widget>[
-                    Image.asset(
-                      'assests/PAS075BCT019.jpg',
+                    Container(
+                      child: Text(
+                        'TRIBHUVAN UNIVERSITY',
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        'INSTITUTE OF ENGINEERING',
+                        style: TextStyle(
+                          color: Colors.blue,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        'PASCHIMANCHAL CAMPUS',
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      child: Text(
+                        'Pokhara-16,Lamachaur,061-440457',
+                        style: TextStyle(color: Colors.blue),
+                      ),
+                    ),
+                    Container(
+                      height: 280,
+                      margin: EdgeInsets.only(
+                        top: 10,
+                        bottom: 10,
+                      ),
+                      child: Row(
+                        children: <Widget>[
+                          Container(
+                            color: Colors.red,
+                            padding: EdgeInsets.only(
+                                left: 10, right: 10, top: 100, bottom: 100),
+                            child: RotatedBox(
+                              quarterTurns: 3,
+                              child: Text(
+                                'STUDENT',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                          Container(
+                            padding: EdgeInsets.symmetric(horizontal: 5.0),
+                            child: Image.asset(
+                              'assests/PAS075BCT019.jpg',
+                            ),
+                          ),
+                          Container(
+                            color: Colors.blue,
+                            padding: EdgeInsets.only(
+                                left: 10, right: 10, top: 100, bottom: 100),
+                            child: RotatedBox(
+                              quarterTurns: 3,
+                              child: Text(
+                                'ID CARD',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                     Text(
                       'ELDRIN GURUNG',
@@ -50,6 +124,27 @@ class idCard extends StatelessWidget {
                       textScaleFactor: 1.5,
                       style: TextStyle(
                           color: Colors.green, fontWeight: FontWeight.bold),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(2),
+                      child: Text(
+                        'Expiry:2079-12-30',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(2),
+                      child: Text(
+                        'Date of Birth:2059-01-20',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.all(2),
+                      child: Text(
+                        'Identification:5101223446',
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
                     ),
                   ],
                 ),
