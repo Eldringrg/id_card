@@ -110,6 +110,13 @@ class idCard extends StatelessWidget {
                       ),
                     ),
                     Text(
+                      'Campus Chief',
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        decoration: TextDecoration.overline,
+                      ),
+                    ),
+                    Text(
                       'ELDRIN GURUNG',
                       textScaleFactor: 1.5,
                       style: TextStyle(fontWeight: FontWeight.bold),
@@ -146,6 +153,23 @@ class idCard extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
+                    Container(
+                      margin: EdgeInsets.only(
+                        top: 10,
+                      ),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 100,
+                        vertical: 10,
+                      ),
+                      color: Colors.red,
+                      child: Text(
+                        'www.wrc.edu.np',
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(
+                          color: Colors.white,
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),
