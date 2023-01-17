@@ -16,7 +16,7 @@ class idCard extends StatelessWidget {
         appBar: AppBar(
           title: Container(
             width: double.infinity,
-            child: Text(
+            child: const Text(
               'ID-Card',
               textAlign: TextAlign.center,
             ),
@@ -33,7 +33,7 @@ class idCard extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     Container(
-                      child: Text(
+                      child: const Text(
                         'TRIBHUVAN UNIVERSITY',
                         style: TextStyle(
                           color: Colors.blue,
@@ -42,7 +42,7 @@ class idCard extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      child: Text(
+                      child: const Text(
                         'INSTITUTE OF ENGINEERING',
                         style: TextStyle(
                           color: Colors.blue,
@@ -50,7 +50,7 @@ class idCard extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      child: Text(
+                      child: const Text(
                         'PASCHIMANCHAL CAMPUS',
                         style: TextStyle(
                           color: Colors.blue,
@@ -59,7 +59,7 @@ class idCard extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      child: Text(
+                      child: const Text(
                         'Pokhara-16,Lamachaur,061-440457',
                         style: TextStyle(color: Colors.blue),
                       ),
@@ -78,7 +78,7 @@ class idCard extends StatelessWidget {
                                 left: 10, right: 10, top: 100, bottom: 100),
                             child: RotatedBox(
                               quarterTurns: 3,
-                              child: Text(
+                              child: const Text(
                                 'STUDENT',
                                 style: TextStyle(
                                   color: Colors.white,
@@ -98,7 +98,7 @@ class idCard extends StatelessWidget {
                                 left: 10, right: 10, top: 100, bottom: 100),
                             child: RotatedBox(
                               quarterTurns: 3,
-                              child: Text(
+                              child: const Text(
                                 'ID CARD',
                                 style: TextStyle(
                                   color: Colors.white,
@@ -109,24 +109,24 @@ class idCard extends StatelessWidget {
                         ],
                       ),
                     ),
-                    Text(
+                    const Text(
                       'Campus Chief',
                       style: TextStyle(
                         fontStyle: FontStyle.italic,
                         decoration: TextDecoration.overline,
                       ),
                     ),
-                    Text(
+                    const Text(
                       'ELDRIN GURUNG',
                       textScaleFactor: 1.5,
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    Text(
+                    const Text(
                       'PAS075BCT019',
                       textScaleFactor: 1.5,
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
-                    Text(
+                    const Text(
                       'Computer Engineering',
                       textScaleFactor: 1.5,
                       style: TextStyle(
@@ -134,21 +134,21 @@ class idCard extends StatelessWidget {
                     ),
                     Container(
                       padding: EdgeInsets.all(2),
-                      child: Text(
+                      child: const Text(
                         'Expiry:2079-12-30',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
                     Container(
                       padding: EdgeInsets.all(2),
-                      child: Text(
+                      child: const Text(
                         'Date of Birth:2059-01-20',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
                     ),
                     Container(
                       padding: EdgeInsets.all(2),
-                      child: Text(
+                      child: const Text(
                         'Identification:5101223446',
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
@@ -162,7 +162,7 @@ class idCard extends StatelessWidget {
                         vertical: 10,
                       ),
                       color: Colors.red,
-                      child: Text(
+                      child: const Text(
                         'www.wrc.edu.np',
                         textAlign: TextAlign.justify,
                         style: TextStyle(
