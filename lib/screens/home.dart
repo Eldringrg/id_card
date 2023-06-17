@@ -67,10 +67,12 @@ class Home extends StatelessWidget {
                           ),
                         ),
                       ),
-                      Container(
-                        padding: EdgeInsets.symmetric(horizontal: 5.0),
-                        child: Image.asset(
-                          'assests/PAS075BCT019.jpg',
+                      Expanded(
+                        child: Container(
+                          padding: EdgeInsets.symmetric(horizontal: 5.0),
+                          child: Image.asset(
+                            'assests/PAS075BCT019.jpg',
+                          ),
                         ),
                       ),
                       Container(
