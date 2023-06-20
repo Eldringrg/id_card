@@ -1,6 +1,6 @@
 # id_card
 
-Designed my id card to practice  for flutter UI basics.
+Designed my clz id card to practice  for flutter UI basics.
 
 
 
