@@ -149,6 +149,7 @@ class Home extends StatelessWidget {
                     'www.wrc.edu.np',
                     textAlign: TextAlign.justify,
                     style: TextStyle(
+                      fontSize: 11,
                       color: Colors.white,
                     ),
                   ),
